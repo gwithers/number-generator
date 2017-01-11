@@ -1,0 +1,17 @@
+{
+  "name": "number-generator",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gwithers/number-generator"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "George Withers",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.0.0",
+    "redis": "*"
+  }
+}
